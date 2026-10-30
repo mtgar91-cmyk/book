@@ -8,7 +8,7 @@ compatibility_date = "2026-10-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "book-library-db"
-database_id = "ضع-هنا-Database-ID"
+database_id = "c966f245-0c56-4521-a4b8-3556883d45bb"
 
 # متغيرات عادية (غير سرية)
 [vars]
