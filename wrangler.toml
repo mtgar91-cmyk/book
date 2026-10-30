@@ -3,12 +3,14 @@ main = "worker.js"
 compatibility_date = "2026-10-01"
 
 # قاعدة البيانات (SQLite على كلاود فلاير)
-# أنشئها من لوحة كلاود فلاير: Storage & Databases > D1 > Create
-# ثم انسخ الـ Database ID وضعه هنا
 [[d1_databases]]
 binding = "DB"
 database_name = "book-library-db"
 database_id = "c966f245-0c56-4521-a4b8-3556883d45bb"
+
+# الذكاء الاصطناعي (Workers AI) - للمرشد الذكي في الموقع
+[ai]
+binding = "AI"
 
 # متغيرات عادية (غير سرية)
 [vars]
@@ -20,3 +22,4 @@ USERBOT_ID = "7884538171"
 # الأسرار تضاف من لوحة كلاود فلاير (Settings > Variables and Secrets) أو بالأمر:
 #   wrangler secret put BOT_TOKEN
 #   wrangler secret put WEBHOOK_SECRET
+#   wrangler secret put ADMIN_CODE      (رمز لوحة الإدارة؛ أول حساب يرسله للبوت يصبح الأدمن)
