@@ -12,9 +12,9 @@ database_id = "ضع-هنا-Database-ID"
 
 # متغيرات عادية (غير سرية)
 [vars]
-BOT_USERNAME = "ضع_يوزر_البوت_بدون_@"
-GROUP_ID = "-100xxxxxxxxxx"
-USERBOT_ID = "ايدي_حساب_الجلسة"
+BOT_USERNAME = "V4vvvvbot"
+GROUP_ID = "-1003915424473"
+USERBOT_ID = "7884538171"
 # SITE_URL = "https://example.com"   # فقط إن استخدمت دومين خاص
 
 # الأسرار تضاف من لوحة كلاود فلاير (Settings > Variables and Secrets) أو بالأمر:
