@@ -1,0 +1,22 @@
+name = "book-library"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+# قاعدة البيانات (SQLite على كلاود فلاير)
+# أنشئها من لوحة كلاود فلاير: Storage & Databases > D1 > Create
+# ثم انسخ الـ Database ID وضعه هنا
+[[d1_databases]]
+binding = "DB"
+database_name = "book-library-db"
+database_id = "ضع-هنا-Database-ID"
+
+# متغيرات عادية (غير سرية)
+[vars]
+BOT_USERNAME = "ضع_يوزر_البوت_بدون_@"
+GROUP_ID = "-100xxxxxxxxxx"
+USERBOT_ID = "ايدي_حساب_الجلسة"
+# SITE_URL = "https://example.com"   # فقط إن استخدمت دومين خاص
+
+# الأسرار تضاف من لوحة كلاود فلاير (Settings > Variables and Secrets) أو بالأمر:
+#   wrangler secret put BOT_TOKEN
+#   wrangler secret put WEBHOOK_SECRET
